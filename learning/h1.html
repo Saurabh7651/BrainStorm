@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h1.css">
+    <style>
+        p.id{
+            color:palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <h3>this is css</h3>
+    <!-- type of adding a css -->
+    <!-- inine css mein p ya kisi bhintag k andar hi css k style ko add karte hai -->
+
+    <p style="color:red; background-color: yellow;">this is css code this is inline css</p>
+<!-- second tarika hota h internal tarike se add karne ka internal css jisme head m stle karte
+par preferense inlineko diya jata hai agar hai to 
+isme head mai style likhte hai phir usme chize style karni hoti
+-->
+<p class="id"> yeh internal css hai</p>
+<!-- 3rd tarika hota hai external css isme head m link mein external file add karna hota h  -->
+<p class="id2">yeh external css hai bhaiya</p>
+<br>
+<hr>  
+<!-- type of css selector -->
+<!-- 1) csss element selector 2) css id selector 3) css class selector 4) css groupi ng selector -->
+ <!--
+     font   
+font family se cursive ya kisi aur m kar sakte,font size se size ,font weight se bold kar sakte
+-->
+<p class="font">
+    this is font tut. font size,font family
+</p>
+<hr>
+<!-- color -->
+<!--  -->
+<h2>this is color </h2>
+<p id="color1">this is a color part yaha color se chize hongi</p>
+<p id="color2">this is a color part yaha color se chize hongi</p>
+<p id="color3">this is a color part yaha color se chize hongi</p>
+
+<br><hr><p id="backgroundimage">bacjground image k liye</p>
+ <br><hr>
+<p id="margpad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ad animi. Reprehenderit, quibusdam!</p>
+<div class="container">
+    <h3>this is heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex illo obcaecati, possimus fugit sequi cupiditate. Excepturi voluptatibus repellat repellendus cupiditate reiciendis repudiandae voluptate dolorum cum, nisi sapiente omnis recusandae facilis non consequatur ex impedit.</p>
+    <!-- hover , visited
+    a:hover a:visited a:avtive
+    -->
+    <a href="https://www.google.com/" class="hov"> google </a>
+</div>
+
+<!-- navigatio bar -->
+<br><hr>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li>home </li>
+            <li>about</li>
+            <li>contact</li>
+            <li>more</li>
+        </ul>
+    </nav>
+</header>
+
+<!-- display inline and block  -->
+<!-- posiotion relative,absolute ,sticky,fixed -->
+<!-- relative mein har block apne se relative kewal miv hoga
+but absolute mein starting k hisab se hoga
+fixed m wo block ek jagh fixed hojaega bhale aap move kar rahe ho
+sticky mein bhi wo chipak jaega -->
+<div class="pos">
+    <div class="box" id="box1">saurabh</div>
+    <div class="box" id="box2">pandey</div>
+    <div class="box" id="box3">pandu</div>
+    <div class="box" id="box4">saurabh pandey</div>
+</div>
+</body>
+</html>
